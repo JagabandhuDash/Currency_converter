@@ -1,5 +1,6 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Iceland&family=Limelight&family=Oxanium:wght@200..800&family=Quintessential&display=swap');
+@import "tailwindcss";
+
 
 @theme{
     --font-anton-sc:"Anton+SC"
