@@ -26,7 +26,7 @@ setTo(fromvalue*value)
 
 return (
     <>
-     <div className='bg-[url(assets\bg-image.png)] bg- w-full h-screen bg-cover flex justify-center items-center '>
+     <div className='bg-[url(\assets\bg-image.png)] bg- w-full h-screen bg-cover flex justify-center items-center '>
       <div className='absolute inset-0 backdrop-blur-sm bg-black/10'></div>
       <div className='bg-white/20 p-10 rounded-2xl flex gap-6 flex-col items-center backdrop-blur-sm shadow-xlg ' >
         <div className='flex'>
