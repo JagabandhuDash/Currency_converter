@@ -57,8 +57,8 @@ return (
         </select>
       </div>
       <div>
-      <button className="w-55 m-4 relative z-0 rounded-3xl bg-blue-700 px-10 py-3 font-anton-sc text-white shadow-[inset_4px_4px_12px_#193d73,inset_-4px_-4px_12px_#3379e3] duration-200 hover:shadow-[inset_2px_2px_5px_#193d73,inset_-2px_-2px_5px_#3379e3]" onClick={getValue}>
-  Convert
+      <button className="w-66 m-4 relative z-0 rounded-3xl bg-blue-700 px-10 py-3 font-anton-sc text-white shadow-[inset_4px_4px_12px_#193d73,inset_-4px_-4px_12px_#3379e3] duration-200 hover:shadow-[inset_2px_2px_5px_#193d73,inset_-2px_-2px_5px_#3379e3]" onClick={getValue}>
+ Convert {fromcurrency.toUpperCase()} to {tocurrency.toUpperCase()}
 </button>
       </div>
        
