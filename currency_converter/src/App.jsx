@@ -1,4 +1,5 @@
 import {useState,useEffect,useCallback} from 'react'
+import bgImage from './assets/bg-image.png'
 import useCurrency from './hooks/currency'
 import useExchange from './hooks/exchange'
 
@@ -26,7 +27,7 @@ setTo(fromvalue*value)
 
 return (
     <>
-     <div className='bg-[url(\public\bg-image.png)] bg- w-full h-screen bg-cover flex justify-center items-center '>
+     <div className='w-full h-screen bg-cover flex justify-center items-center' style={{ backgroundImage: `url(${bgImage})` }}>
       <div className='absolute inset-0 backdrop-blur-sm bg-black/10'></div>
       <div className='bg-white/20 p-10 rounded-2xl flex gap-6 flex-col items-center backdrop-blur-sm shadow-xlg ' >
         <div className='flex'>
